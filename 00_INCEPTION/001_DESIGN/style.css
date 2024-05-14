@@ -19,6 +19,9 @@ body {
   background-color: var(--deep-space); /* Replace with your desired color */
 }
 
+ul {
+  background-color: var(--desert-tan)
+}
 
 /* Carousel-specific styles */
 .slide {
