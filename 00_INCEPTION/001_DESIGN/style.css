@@ -1,0 +1,29 @@
+
+/* Basic styles for navbar, carousel, footer */
+nav { /* ... */ }
+.carousel { /* ... */ }
+.slide { /* ... */ }
+footer { /* ... */ }
+
+
+
+:root {
+  --deep-space: #010312;
+  --earth-blue: #2D4EA1;
+  --cloud-white: #F2F2F2;
+  --land-green: #466C52;
+  --desert-tan: #A58161;
+}
+
+body {
+  background-color: var(--deep-space); /* Replace with your desired color */
+}
+
+
+/* Carousel-specific styles */
+.slide {
+  display: none; /* Hide slides by default */
+}
+.slide.active {
+  display: block; /* Show the active slide */
+}
